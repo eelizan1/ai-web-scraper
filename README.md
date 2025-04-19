@@ -15,3 +15,10 @@ Key Features:
 
 📦 Modular architecture that makes it easy to plug in new targets, extractors, or AI models.
 
+### Setup
+To get started, set up a virtual environment and install dependencies:
+
+```bash
+python3 -m venv ai
+source ai/bin/activate
+pip install -r requirements.txt
