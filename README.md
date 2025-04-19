@@ -22,3 +22,7 @@ To get started, set up a virtual environment and install dependencies:
 python3 -m venv ai
 source ai/bin/activate
 pip install -r requirements.txt
+
+### To Run 
+```bash
+streamlit run main.py
