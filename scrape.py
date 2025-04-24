@@ -20,7 +20,7 @@ def scrape_website(website):
         driver.get_screenshot_as_file('./page.png')
         print('Navigated! Scraping page content...')
         html = driver.page_source
-        print(html)
+        return html
 
 def extract_body_content(html_content):
     soup = BeautifulSoup(html_content, "html.parser")
