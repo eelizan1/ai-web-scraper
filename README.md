@@ -25,7 +25,9 @@ pip install -r requirements.txt
 
 ### Ollama - llama3
 This will use a local instance of the Ollamma LLM. Download Ollama for mac or windows and use model llama3. Then run: 
-```ollama pull llama3.1```
+```bash
+ollama pull llama3.1
+```
 
 ### To Run 
 ```bash
