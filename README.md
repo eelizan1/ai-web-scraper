@@ -28,6 +28,7 @@ This will use a local instance of the Ollamma LLM. Download Ollama for mac or wi
 ```bash
 ollama #runs the llm
 ollama pull llama3.1 # pulls the model
+ollama run llama3
 ```
 
 ### To Run 
